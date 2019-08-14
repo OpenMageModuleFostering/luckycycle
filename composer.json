@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/luckycycle",
+    "type": "magento-module",
+    "license": "LuckyCycle",
+    "homepage": "",
+    "description": "Buy &amp; Win! Luckycycle is a patented sales promotion tool offered to digital stores allowing them to offer free purchases to their customers in accordance with pre-set parameters.",
+    "authors": [
+    {
+        "name": "Nicolas Van Peteghem",
+        "email": "nvanpeteghem@luckycycle.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

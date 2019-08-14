@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_success translate="label">
+		<label>One Page Checkout Success</label>
+        <reference name="content">
+			<reference name="checkout.success">
+                <action method="setTemplate"><template>Luckycycle/success.phtml</template></action>
+            </reference>
+            <block type="checkout/onepage_success" name="checkout.snippetsdk" template="Luckycycle/snippetsdk.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+     <checkout_multishipping_success>
+        <reference name="content">
+            <reference name="checkout_success">
+                <action method="setTemplate"><template>Luckycycle/multishipping/success.phtml</template></action>
+            </reference>
+            <block before="-" type="checkout/multishipping_success" name="checkout.snippetsdk" template="Luckycycle/multishipping/snippetsdk.phtml"/>
+        </reference>
+    </checkout_multishipping_success>
+</layout>
