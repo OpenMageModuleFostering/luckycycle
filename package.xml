@@ -1,22 +1,20 @@
 <?xml version="1.0"?>
 <package>
-    <name>luckycycle</name>
-    <version>1.0.0</version>
+    <name>Luckycycle</name>
+    <version>1.6.1</version>
     <stability>stable</stability>
-    <license uri="http://www.luckycycle.com">LuckyCycle</license>
+    <license uri="https://opensource.org/licenses/MIT">MIT</license>
     <channel>community</channel>
     <extends/>
-    <summary>Buy &amp;amp; Win! Luckycycle is a patented sales promotion tool offered to digital stores allowing them to offer free purchases to their customers in accordance with pre-set parameters.</summary>
-    <description>Luckycycle is available online, offline and mobile. With Luckycycle you can offer free purchases by way of promotions to your customers who are buying online, making purchases on their mobile, or visiting your physical stores.&#xD;
-&#xD;
-Luckycycle holds a US Patent registered by the US Patent and Trademark Office (USPTO). The Luckycycle method is 100% legal in all countries where we operate and has been adapted to countries specific regulations.&#xD;
-&#xD;
-In order to activate the module, contact us at luckycycle.com</description>
-    <notes>First release</notes>
-    <authors><author><name>Nicolas Van Peteghem</name><user>luckycycle</user><email>nvanpeteghem@luckycycle.com</email></author></authors>
-    <date>2015-03-02</date>
-    <time>10:39:33</time>
-    <contents><target name="magecommunity"><dir name="Luckycycle"><dir name="Snippetsdk"><dir name="Helper"><file name="Data.php" hash="00cd3b339a743f60ba9f781e1741f5c6"/></dir><dir name="Model"><file name="Bannerdefault.php" hash="7b82281124ab9ecd8d6d5e97448c0018"/><file name="Luckycycle.php" hash="0f1e514c97231f3d855fbcba9d2b39aa"/><dir name="Mysql4"><dir name="Luckycycle"><file name="Collection.php" hash="ecd953b3bc37e1ce9ed48b2e5d6466e2"/></dir><file name="Luckycycle.php" hash="7f7701e670205d2f36a1aac638200416"/></dir><file name="Paymentmethod.php" hash="875b65e444b7c0fc05b5f3aad4e29405"/><file name="Posinformation.php" hash="a2c2896a9786073994ef815405fcccd3"/><dir name="Resource"><file name="Setup.php" hash="ae57d1935d370d2322408a886bfa1d87"/></dir><file name="Usemode.php" hash="270b05a079ae7e623c028e176f1a1bee"/></dir><dir name="etc"><file name="adminhtml.xml" hash="0e8ed401660ff82c4745f61070d31112"/><file name="config.xml" hash="873c4c4b374bbc77b32b6d53f9372b6b"/><file name="system.xml" hash="eb9af6e367eada02ea2aa44fb5e1b42d"/></dir><dir name="sql"><dir name="luckycycle_snippetsdk_setup"><file name="mysql4-install-1.0.0.php" hash="0886f787f7107771d3c307b11377f6bf"/><file name="mysql4-install-1.0.0.php.bak" hash="744a19f3573ec85b6072ba6cfa7a1850"/></dir></dir></dir><file name=".DS_Store" hash="a708356ae60e99b183a3354a5e1c1632"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="Luckycycle"><file name="snippetsdk.xml" hash="121ec1d1c392c19d2eda7ecd3a4f0599"/></dir></dir><dir name="template"><dir name="Luckycycle"><dir name="multishipping"><file name="snippetsdk.phtml" hash="5aba1afa065530f359498b11937f4dc9"/><file name="success.phtml" hash="ff1086fab2e76aa08ac8abc33f2a742a"/></dir><file name="snippetsdk.phtml" hash="a9159e1153e4ccc5f603c059929498ad"/><file name="success.phtml" hash="ac6c218c64e42392cfaa74e936a3745e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Luckycycle_Snippetsdk.xml" hash="31d8da4d548231ffd5fb958db21e5873"/></dir></target><target name="magelib"><dir name="luckysdk"><file name="Pest.php" hash="8ec7c28da2611e5250ebde66b08a726b"/><file name="PestJSON.php" hash="c11bd95a37ed6b59b295aeb31c634746"/><file name="PestXML.php" hash="2b1e28a69908051e8477ed2666b938bd"/><file name="README.markdown" hash="f67a352fe5189051212f4ee6ed9230a1"/><file name="composer.json" hash="2ba49c7d970ffa3e811deac225f24e0c"/><file name="draw.php" hash="3e26dfa7fd9249a38f2a35377161146c"/><file name="get.php" hash="acbe4dc1e76fdf235835050ab822db60"/><file name="lucky.php" hash="a8c49f3e5c3c689714b488cd40598584"/><file name="poke.php" hash="6a7d6da9b1da06104f5a4bb1182f595e"/><file name=".gitignore" hash="519ab8ba66c7113563fcdbb909d274de"/></dir></target></contents>
+    <summary>Luckycycle modules that add the gamebox in the confirmation page</summary>
+    <description>Luckycycle modules sends some data to the Luckycycle servers and show a gamebox in the confirmation page of some conditions are met.&#xD;
+More info : https://www.luckycycle.com&#xD;
+</description>
+    <notes>last stable release</notes>
+    <authors><author><name>JM Goemaere</name><user>sucrenoir</user><email>jm@luckycycle.com</email></author></authors>
+    <date>2015-12-14</date>
+    <time>14:11:52</time>
+    <contents><target name="magecommunity"><dir name="."><dir name="app"><dir name="code"><dir name="community"><dir name="Luckycycle"><dir name="Snippetsdk"><dir name="Block"><file name="Index.php" hash=""/></dir><dir name="controllers"><file name="IndexController.php" hash=""/></dir><dir name="etc"><file name="adminhtml.xml" hash=""/><file name="config.xml" hash=""/><file name="system.xml" hash=""/></dir><dir name="Helper"><file name="Data.php" hash=""/></dir><dir name="Model"><file name="Luckycycle.php" hash=""/><file name="Paymentmethod.php" hash=""/><file name="Posinformation.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="."><dir name="app"><dir name="design"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="Luckycycle"><file name="snippetsdk.xml" hash=""/></dir></dir><dir name="template"><dir name="Luckycycle"><file name="index.phtml" hash=""/><dir name="multishipping"><file name="snippetsdk.phtml" hash=""/><file name="success.phtml" hash=""/></dir><file name="snippetsdk.phtml" hash=""/><file name="success.phtml" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="."><dir name="app"><dir name="etc"><dir name="modules"><file name="Luckycycle_Snippetsdk.xml" hash=""/></dir></dir></dir></dir></target><target name="magelib"><dir name="."><dir name="lib"><dir name="luckysdk"><file name="lucky.php" hash=""/><dir name="pest"><file name="Pest.php" hash=""/><file name="PestJSON.php" hash=""/><file name="PestXML.php" hash=""/></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php><extension><name>curl</name><min/><max/></extension></required></dependencies>
 </package>

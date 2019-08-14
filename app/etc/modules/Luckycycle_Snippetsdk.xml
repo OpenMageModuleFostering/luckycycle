@@ -1,8 +1,0 @@
-<config>
-    <modules>
-        <Luckycycle_Snippetsdk>
-            <active>true</active>
-            <codePool>community</codePool>
-        </Luckycycle_Snippetsdk>
-    </modules>
-</config>

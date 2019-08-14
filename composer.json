@@ -1,13 +1,13 @@
 {
-    "name": "OpenMageModuleFostering/luckycycle",
+    "name": "OpenMageModuleFostering/Luckycycle",
     "type": "magento-module",
-    "license": "LuckyCycle",
+    "license": "MIT",
     "homepage": "",
-    "description": "Buy &amp; Win! Luckycycle is a patented sales promotion tool offered to digital stores allowing them to offer free purchases to their customers in accordance with pre-set parameters.",
+    "description": "Luckycycle modules that add the gamebox in the confirmation page",
     "authors": [
     {
-        "name": "Nicolas Van Peteghem",
-        "email": "nvanpeteghem@luckycycle.com"
+        "name": "JM Goemaere",
+        "email": "jm@luckycycle.com"
     }
 ],
     "suggest": {
