@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Luckycycle",
+    "name": "OpenMageModuleFostering\/Luckycycle",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "Luckycycle modules that add the gamebox in the confirmation page",
     "authors": [
-    {
-        "name": "JM Goemaere",
-        "email": "jm@luckycycle.com"
-    }
-],
+        {
+            "name": "JM Goemaere",
+            "email": "jm@luckycycle.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
